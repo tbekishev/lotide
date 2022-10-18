@@ -12,7 +12,7 @@ const eqArrays = function (array1, array2) {
   } return counter;
 }
 
-const assertArrayEqual = function(arrayA, arrayB) {
+const assertArraysEqual = function(arrayA, arrayB) {
   if (eqArrays(arrayA, arrayB)) {
     console.log(`✅✅✅Assertion Passed: [${arrayA}] === [${arrayB}]`);
   } else {
