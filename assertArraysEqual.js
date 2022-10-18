@@ -11,3 +11,11 @@ const eqArrays = function (array1, array2) {
     counter = false;
   } return counter;
 }
+
+const assertArrayEqual = function(arrayA, arrayB) {
+  if (eqArrays(arrayA, arrayB)) {
+    console.log(`✅✅✅Assertion Passed: [${arrayA}] === [${arrayB}]`);
+  } else {
+    console.log(`❌❌❌Assertion Failed: [${arrayA}] !== [${arrayB}]`);
+  }
+};
