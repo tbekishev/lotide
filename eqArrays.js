@@ -15,3 +15,4 @@ const eqArrays = function (array1, array2) {
     }    
     return true;
 };
+module.exports = eqArrays;
