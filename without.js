@@ -13,4 +13,5 @@ const without = function(source, itemsToRemove) {
     counter = false;
   } 
   return newArray;
-}
+};
+module.exports = without;
